@@ -35,7 +35,7 @@ function About() {
                   <a href="https://www.linkedin.com/in/akhil-thata" className={styles.icon}>
                     <FiLinkedin size={50} color="#0a66c2"/>
                   </a>
-                  <a className={styles.icon}>
+                  <a href="https://docs.google.com/viewer?url=https://github.com/athata1/Portfolio/raw/main/data/AkhilThataRedactedResume.pdf" className={styles.icon}>
                     <BsFillFileEarmarkPersonFill size={50} color="#e87f5f"/>
                   </a>
                 </div>
