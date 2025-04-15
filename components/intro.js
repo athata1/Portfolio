@@ -11,7 +11,7 @@ const instrumentSans = Instrument_Sans({
 
 function Intro() {
   return (
-    <div className={`${instrumentSans.className} ${styles.background}`}>
+    <div id="home" className={`${instrumentSans.className} ${styles.background}`}>
       <div className={styles.image}>
         <Image
           src="/face_icon.png" 

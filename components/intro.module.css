@@ -34,26 +34,26 @@
     flex-shrink: 0;
   }
   
-  @media (max-width: 768px) {
-    .background {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .container {
-      align-items: center;
-    }
-  
-    .title {
-      font-size: 48px;
-    }
-  
-    .description {
-      font-size: 28px;
-    }
-  
-    .image {
-      margin-top: 20px;
-    }
+@media (max-width: 768px) {
+  .background {
+    flex-direction: column;
+    text-align: center;
   }
+
+  .container {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .image {
+    margin-top: 0px;
+  }
+}
   

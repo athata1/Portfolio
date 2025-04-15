@@ -15,16 +15,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+
+    gap: 10px;
+
+    width: min(100%,500px);
+    height: 500px;
+
+    overflow-y: scroll;
 }
 
 .image {
 
     position: relative;
 
-    height: 663px;
+    height: 500px;
     aspect-ratio: 1/1.5;
-    object-fit: cover;
+    object-fit: contain;
 
     overflow: hidden;
     border-top-right-radius: 67% 45%;
@@ -38,4 +45,59 @@
 .title {
     font-size: 75px;
     color: #963A2F;
+    font-weight: 700;
 }
+
+.info {
+    font-size: 30px;
+    color: #963A2F;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 20px;
+    color: #963A2F;
+    font-weight: 200;
+    overflow-x: scroll;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 20px
+}
+
+.icon {
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+@media (max-width: 768px) {
+    .background {
+      flex-direction: column;
+    }
+  
+    .container {
+      align-items: center;
+      height: auto;
+      overflow-y: auto;
+    }
+  
+    .title {
+      font-size: 48px;
+    }
+  
+    .description {
+      font-size: 28px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .image {
+      margin-top: 20px;
+    }
+  }
