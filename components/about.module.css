@@ -1,0 +1,41 @@
+.background {
+    width: 100%;
+    min-height: 100svh;
+    background-color: #FFFEE9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 2rem;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+
+    position: relative;
+
+    height: 663px;
+    aspect-ratio: 1/1.5;
+    object-fit: cover;
+
+    overflow: hidden;
+    border-top-right-radius: 67% 45%;
+    border-top-left-radius: 67% 45%;
+
+    box-sizing: border-box;
+    border: 20px solid #963A2F;
+    box-shadow: 10px -10px #D28A53;
+}
+
+.title {
+    font-size: 75px;
+    color: #963A2F;
+}

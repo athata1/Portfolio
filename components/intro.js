@@ -1,6 +1,7 @@
 import styles from "./intro.module.css";
 import { Instrument_Sans } from "next/font/google";
 import Image from "next/image";
+import Data from "@data/data.json";
 
 const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
@@ -19,8 +20,8 @@ function Intro() {
         />
       </div>
       <div className={styles.container}>
-        <h1 className={styles.title}>Akhil Thata</h1>
-        <p className={styles.description}>Web/iOS Developer</p>
+        <h1 className={styles.title}>{Data['name']}</h1>
+        <p className={styles.description}>{Data['title']}</p>
       </div>
     </div>
   );
